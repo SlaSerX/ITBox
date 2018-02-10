@@ -1,0 +1,5 @@
+* Copyright (C) 2018 ITBox project.
+* Feedback/comment/suggestions : https://itbox.bg/
+* Author Ivan Bachvarov a.k.a SlaSerX
+* Professional software to organize Digital TV Broadcasting Service.
+
