@@ -7,19 +7,12 @@
                 <div class="x_title">
                     <h2>ITBox Panel v1.2rc</h2>
 
-                    <div class="clearfix"></div>
+   <div class="clearfix"></div>
                 </div>
-                <div class="x_content">
-                    @if(count($categories) > 0)
-
-                        @if($message)
-                            <div class="alert alert-{{ $message['type'] }}">
-                                {{ $message['message'] }}
-                            </div>
-                        @endif
                         <br>
 
                         <form id="demo-form2" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="" role="form" action="" method="post">
+
 
 <?php
 $about = shell_exec('cat ./about.txt');
@@ -30,12 +23,6 @@ echo "FEATURES: <pre>$about</pre>";
 echo "LICENSE: <pre>$license</pre>";
 ?>
 
-                    @else
-                        <div class="alert alert-error">
-                            <button type="button" class="close" data-dismiss="alert">×</button>
-                            <strong>Error!</strong> You need to create an category!
-                        </div>
-                    @endif
             </div>
         </div>
     </div>
@@ -61,3 +48,6 @@ echo "LICENSE: <pre>$license</pre>";
         });
     </script>
 @endsection
+
+
+
